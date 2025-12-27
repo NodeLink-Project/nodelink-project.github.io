@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.nodelink.server",
+    "module": "NodeLink-Server",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "NodeLink-Server-0.1.0.jar",
+          "url": "NodeLink-Server-0.1.0.jar",
+          "size": 14587,
+          "sha512": "bd20edb49f026e39eb71e2ee3ea4cb03a84d57c69986cc070199d94e8697d49cc7ff9a15c43d5890adc5e9868614746876c1cb8d91b055cf1542d75e707bf324",
+          "sha256": "9d62fa54169e62f1c40530db6f3531b8b14adbc29d5951ab6161114f811fe603",
+          "sha1": "9cbabdbacfc9eb4ded4a480c89b43383bba6f04b",
+          "md5": "4e6451b9bf24c9985dde51792c5373fc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline",
+          "version": {
+            "requires": "3.30.0"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NodeLink-Server-0.1.0.jar",
+          "url": "NodeLink-Server-0.1.0.jar",
+          "size": 14587,
+          "sha512": "bd20edb49f026e39eb71e2ee3ea4cb03a84d57c69986cc070199d94e8697d49cc7ff9a15c43d5890adc5e9868614746876c1cb8d91b055cf1542d75e707bf324",
+          "sha256": "9d62fa54169e62f1c40530db6f3531b8b14adbc29d5951ab6161114f811fe603",
+          "sha1": "9cbabdbacfc9eb4ded4a480c89b43383bba6f04b",
+          "md5": "4e6451b9bf24c9985dde51792c5373fc"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NodeLink-Server-0.1.0-fat.jar",
+          "url": "NodeLink-Server-0.1.0-fat.jar",
+          "size": 3679887,
+          "sha512": "2f63bf363e01aa4d84b7d0b296001228df0764a150ea7b4f7f93d2188d1f345fb64efcc6bef23e912b5d6facff4fa5530fdc9df5b54dea1de9ffcca9663d6342",
+          "sha256": "00cb6007a2797fe7b99f6fb44faaad6344e273594094ead345a4b8ff4720b8bc",
+          "sha1": "3e579fcdc0c9092966acfa6f3a431e1416e238b9",
+          "md5": "2a99dce92c9753ed4f2f0cf5ea8dd276"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NodeLink-Server-0.1.0-sources.jar",
+          "url": "NodeLink-Server-0.1.0-sources.jar",
+          "size": 7836,
+          "sha512": "3dc66877fd11bb2785b72a1bfa97e5519d439484a21efeb39e34e416789574006995fc7d34233bdea1cab09c49e11cf23426353f4e310df3f3d9407c050ea724",
+          "sha256": "5a5ae0f0b1e8045a67bca2362a94672bb1ed8c0322439c0adc9c768de990319c",
+          "sha1": "21726509fd7c2c5f092b60aaf298f938f1b6239d",
+          "md5": "18c82808ac862155f5e67958263c9405"
+        }
+      ]
+    }
+  ]
+}
