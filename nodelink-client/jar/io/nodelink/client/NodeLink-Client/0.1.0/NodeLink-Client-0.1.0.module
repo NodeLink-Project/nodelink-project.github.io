@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.nodelink.client",
+    "module": "NodeLink-Client",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "NodeLink-Client-0.1.0.jar",
+          "url": "NodeLink-Client-0.1.0.jar",
+          "size": 6091,
+          "sha512": "45a4d7eb786e2cbd0ec1ade6be9d4008330faec31ab0d4e3440e4e5395e59bd1cd84582a42cd11d180f60dcbe5250428a8f66a332f7bd73f722bb46bd2bc23f5",
+          "sha256": "f12392399de6d9498f0ef41b8139bd490688cd2903a608e61a37d7b72a1f0b80",
+          "sha1": "003ae22efb6e2db18298cb8ab61d99730de31ff2",
+          "md5": "633498514ba7e007789bf74ca7a7aa6b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jline",
+          "module": "jline",
+          "version": {
+            "requires": "3.30.0"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NodeLink-Client-0.1.0.jar",
+          "url": "NodeLink-Client-0.1.0.jar",
+          "size": 6091,
+          "sha512": "45a4d7eb786e2cbd0ec1ade6be9d4008330faec31ab0d4e3440e4e5395e59bd1cd84582a42cd11d180f60dcbe5250428a8f66a332f7bd73f722bb46bd2bc23f5",
+          "sha256": "f12392399de6d9498f0ef41b8139bd490688cd2903a608e61a37d7b72a1f0b80",
+          "sha1": "003ae22efb6e2db18298cb8ab61d99730de31ff2",
+          "md5": "633498514ba7e007789bf74ca7a7aa6b"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NodeLink-Client-0.1.0-fat.jar",
+          "url": "NodeLink-Client-0.1.0-fat.jar",
+          "size": 3391706,
+          "sha512": "153bb17566e1b3d26cbcd4c8a7cf1c0787dce8cb19b00e73a26985aca3d3a4496cbb8a4ec5d72e62183023c611b42c21ba419990105fcb0dea31043ad3bae9bb",
+          "sha256": "13fba24412ae8d44fc6f34fa0afec2c920184ac89dc1a98a3543d116697075a2",
+          "sha1": "6d85268a52a3ba7b73ea7a83c0453f2acd8211fc",
+          "md5": "40a411d4bc21b73753655ba0d9e935ce"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NodeLink-Client-0.1.0-sources.jar",
+          "url": "NodeLink-Client-0.1.0-sources.jar",
+          "size": 3846,
+          "sha512": "003149e071d8902a9e625ea4e4fe83a95cd89d3afea1a122571af1659dd4c7c75a62e4f50425fc61c93d0f2da1c1518e58a0a38e6f2d38cc9180cf17761c67c9",
+          "sha256": "040d4d8fc58b4f63c8d2445aea0a21f84f41eaff11ad5a6d6ba120d51a2d98e7",
+          "sha1": "de4c47ca501a0415aa41d9f15a37723ee4d5d1de",
+          "md5": "2d1568030f7570197413bc07e92d81cb"
+        }
+      ]
+    }
+  ]
+}
