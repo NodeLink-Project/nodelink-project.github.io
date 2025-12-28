@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.nodelink.server",
+    "module": "NodeLink-Server",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "NodeLink-Server-0.1.0.jar",
+          "url": "NodeLink-Server-0.1.0.jar",
+          "size": 15400,
+          "sha512": "f63250b9a9a185953e7a7cffd6e44bc6da1017a09326fc74bcbc7db22ce2d7c17d33239ab1fd5a89f765b425cceeb78dc62b88c69a74c3e824f8ce2134b462ad",
+          "sha256": "9e1d0f68bcc549589a2b7d65c8c4c6b2a99cd3814040084ff1f28ccfa9cb5a16",
+          "sha1": "882cc222c311fdcb353fdd06ab70a588544a3832",
+          "md5": "802d8647e9369f7aa9ab4ebea6aba0cb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline",
+          "version": {
+            "requires": "3.30.0"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NodeLink-Server-0.1.0.jar",
+          "url": "NodeLink-Server-0.1.0.jar",
+          "size": 15400,
+          "sha512": "f63250b9a9a185953e7a7cffd6e44bc6da1017a09326fc74bcbc7db22ce2d7c17d33239ab1fd5a89f765b425cceeb78dc62b88c69a74c3e824f8ce2134b462ad",
+          "sha256": "9e1d0f68bcc549589a2b7d65c8c4c6b2a99cd3814040084ff1f28ccfa9cb5a16",
+          "sha1": "882cc222c311fdcb353fdd06ab70a588544a3832",
+          "md5": "802d8647e9369f7aa9ab4ebea6aba0cb"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NodeLink-Server-0.1.0-fat.jar",
+          "url": "NodeLink-Server-0.1.0-fat.jar",
+          "size": 3680700,
+          "sha512": "04a677066bd44fe9e977532eb68a9b43d56a8d0235d228e58fcdbe0e458aca9ad51ae07eb45f5516a3cbcb9848484292fc8680cc70336992f89a0c2684209040",
+          "sha256": "a6c5221ae2e2e35cdd415297b70a75017147d21e3beb8bec196f4e61098224c4",
+          "sha1": "bcd8b793a91624bc945281c2167e2f1d94072415",
+          "md5": "484d0f5a55b02903b568d22d6a21ce34"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NodeLink-Server-0.1.0-sources.jar",
+          "url": "NodeLink-Server-0.1.0-sources.jar",
+          "size": 7571,
+          "sha512": "17442ba3dee50af9c997695de6ba67b26e9008eee78c26a60e292c60ab3a0918fca5de81568e6ff8ea4b8768dc96a59dd79d5d963e363e5658bed8acf304f876",
+          "sha256": "de6b1a1dd762b208b733bade7dbbe8396a90a14c9052067c4852b66128c201b4",
+          "sha1": "7044329658c3f1a2d6d747c1ff72019e48d8ecd1",
+          "md5": "3da2ab9a4aaab7a2aa9384363f9b88a4"
+        }
+      ]
+    }
+  ]
+}
