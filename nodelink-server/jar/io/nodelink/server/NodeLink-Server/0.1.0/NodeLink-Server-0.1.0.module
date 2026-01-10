@@ -27,11 +27,11 @@
         {
           "name": "NodeLink-Server-0.1.0.jar",
           "url": "NodeLink-Server-0.1.0.jar",
-          "size": 42157,
-          "sha512": "7553585a90f6c8c6d80c9c6d485edeac846635dfcd435e7c9eb7d41882528bc20b622a4baf5ac68cc025c79587f35114c9f71d17f17ba34c425b3ff732ed5cf5",
-          "sha256": "966608f89f823b29ef81877520dd6e932922aa78e68a937d2c9547cbe49704f2",
-          "sha1": "7ef2fa9e287bd93d000c08fad7a9b19cb7320729",
-          "md5": "efedc8ff9395be1753e959879f4d969c"
+          "size": 50363,
+          "sha512": "002fe24e275c77d32857c03359a6b540f8bdf4cb612ceabf529f3f6cd591bdea2ec682081735bab2b73f9acd55109cd58eb432dbf3862a54b98a91e6ade825fb",
+          "sha256": "3bbc6344a64a52b20186a8adc5f9dc0f3925468c6d40f6faac838dc3619571d2",
+          "sha1": "370aa2cdc7c7c4de88fc01420abdd186001b5ae2",
+          "md5": "6d3b2999434f3b18d99e7ca69d613e5e"
         }
       ]
     },
@@ -118,11 +118,11 @@
         {
           "name": "NodeLink-Server-0.1.0.jar",
           "url": "NodeLink-Server-0.1.0.jar",
-          "size": 42157,
-          "sha512": "7553585a90f6c8c6d80c9c6d485edeac846635dfcd435e7c9eb7d41882528bc20b622a4baf5ac68cc025c79587f35114c9f71d17f17ba34c425b3ff732ed5cf5",
-          "sha256": "966608f89f823b29ef81877520dd6e932922aa78e68a937d2c9547cbe49704f2",
-          "sha1": "7ef2fa9e287bd93d000c08fad7a9b19cb7320729",
-          "md5": "efedc8ff9395be1753e959879f4d969c"
+          "size": 50363,
+          "sha512": "002fe24e275c77d32857c03359a6b540f8bdf4cb612ceabf529f3f6cd591bdea2ec682081735bab2b73f9acd55109cd58eb432dbf3862a54b98a91e6ade825fb",
+          "sha256": "3bbc6344a64a52b20186a8adc5f9dc0f3925468c6d40f6faac838dc3619571d2",
+          "sha1": "370aa2cdc7c7c4de88fc01420abdd186001b5ae2",
+          "md5": "6d3b2999434f3b18d99e7ca69d613e5e"
         }
       ]
     },
@@ -138,11 +138,11 @@
         {
           "name": "NodeLink-Server-0.1.0-fat.jar",
           "url": "NodeLink-Server-0.1.0-fat.jar",
-          "size": 18777290,
-          "sha512": "8a7a781bd35f18cb3267f764477ce5ba0aaa2cd6736111bc1d139372338e547961bbc2ac03ff14dc172c0cb50f98566626e9bf3834032fa77b636ff08c05c7d3",
-          "sha256": "7cad50d7503ff83b48bd924c30538f2b9a5245f23e9d6f4c542b80a62e3cd112",
-          "sha1": "589c808eafb0f498253c6f2ffcc0ecee4f888abe",
-          "md5": "e39a70ace61b0b78ae18581f7ddb967d"
+          "size": 18785496,
+          "sha512": "ecab7afa0ae3a28617549745a16de72424c887b915274b584e9f59495050698d269fc616a083a6fad6e0885c638493bd96151655b0ecd749326f177db5f66262",
+          "sha256": "a20385561732547a4d7b68d33bfbd9dfa4cb3faa4c196ccf7c0f78e6b449f5b4",
+          "sha1": "235d8a95800cff011deaea8043af5c928c79b45c",
+          "md5": "dcf71c982362fcf1fd1c40e0b0a89583"
         }
       ]
     },
@@ -158,11 +158,11 @@
         {
           "name": "NodeLink-Server-0.1.0-sources.jar",
           "url": "NodeLink-Server-0.1.0-sources.jar",
-          "size": 18966,
-          "sha512": "e1bf55fd4217c7109cd5d9bb93dcad1f446517a82511442a4707f74eaf8e63865e88b5f687ccc316f20edc7b31cbd5b95218a4bf9518a28bd58522d7d89e1001",
-          "sha256": "718878009b7df1713f06ab888bf79a4861cb47a9bc48c74617586603c396a622",
-          "sha1": "4c3c94e90dc1a65d0c59ca63b7b5c88c820b62b0",
-          "md5": "e479dc53e5474bf9b13fddaae64a1a56"
+          "size": 22669,
+          "sha512": "0d1b1264ab7fbdc4cd700ffb37c7d54924e6f5ea0cdcbfbd27990d08d737224759d847b8c0259a94120d89ffd65891b64edbea2b8107b0ced8d79247887bbe9c",
+          "sha256": "89d92f4d070077ff18e64a8b50e004dc50744cfe19ce6c65273b46b4b895b89e",
+          "sha1": "ebda7104afdc2c5532bddcdeabe5374f2eec674e",
+          "md5": "f716c8606385453e7a871dbb46ca2a44"
         }
       ]
     }
